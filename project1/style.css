@@ -1,0 +1,41 @@
+h2{
+	color:red;
+	background-color: yellow;
+	font-weight: bold;
+	font-size: 50px;
+	font-family: "Audiowide", sans-serif;
+}
+body{
+	background: rgba(0,0,0,0.9);
+}
+p{
+	line-height: 1.5em;
+	color:coral;
+	font-family: Brush Script MT,cursive;
+	font-size: 30px;
+}
+.content{
+	width: 60%;
+	margin:left;
+}
+.container{
+	display: flex;
+
+}
+.c1{
+	flex: 2;
+	order: 4;
+}
+.c2{
+	flex: 1;
+
+}
+.c3{
+	flex: 1;
+}
+.c4{
+	flex: 1;
+}
+a{
+	box-sizing: 5px solid;
+}
